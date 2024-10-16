@@ -135,15 +135,25 @@ input:-webkit-autofill {
         flex-direction: column;
         width: 95%;
         margin-top: 50px;
+        
     }
     form {
         display: flex;
         flex-direction: column;
         width: 95%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     .left-area, .right-area {
         width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .inputGroup {
+        margin-left: 0;
     }
 
 
