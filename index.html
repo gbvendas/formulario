@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="area-formulario">
+        <div class="L">
+        <form id="fullForm">
+            <div class="left-area">
+                <h2 class="title-left">Informações Pessoais</h2>
+                <br>
+
+                <div class="inputGroup">
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+                    <label for="name">Nome</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="number" id="idade" name="idade" placeholder="Informe sua idade" required>
+                    <label for="idade">Idade</label>
+                </div>
+            </div>
+
+            <div class="right-area">
+                <h2 class="right-title">Formulário de Endereço</h2>
+                <br>
+
+                <div class="inputGroup">
+                    <input type="text" id="cep" name="cep" placeholder="Digite o CEP" required>
+                    <label for="cep">CEP:</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" id="rua" name="rua" readonly required>
+                    <label for="rua">Rua:</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" id="bairro" name="bairro" readonly required>
+                    <label for="bairro">Bairro:</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" id="cidade" name="cidade" readonly required>
+                    <label for="cidade">Cidade:</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" id="estado" name="estado" readonly required>
+                    <label for="estado">Estado:</label>
+                </div>
+                <div class="inputGroup">
+                    <input type="text" id="pais" name="pais" value="Brasil" readonly required>
+                    <label for="pais">País:</label>
+                </div>
+            </div>
+
+            
+        </form>
+
+        <div class="submit-area">
+            <button type="submit" id="submitButton" disabled>Enviar</button>
+        </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
